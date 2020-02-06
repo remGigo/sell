@@ -5,8 +5,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * 描述： http请求返回的最外层对象
- *
+ * 描述： http请求返回的最外层对象 (绝对不能把数据库中商品所有的信息都返回给前端)
  * @create: 2020-01-28 14:56
  */
 @Data

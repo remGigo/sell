@@ -11,7 +11,7 @@ public interface OrderService {
     //创建订单            不用OrderMaster而重造一个OrderDetail的原因是前端传来的json就带OrderDetail的
     OrderDTO create(OrderDTO orderDTO);
 
-    //查询单个订单         嗯嗯一定要返回带OrderDetail的对象嘛，因为前端业务需求鸭
+    //查询单个订单         一定要返回带OrderDetail的对象，因为前端业务需求鸭
     OrderDTO findOne(String orderId);
 
     //查询订单列表

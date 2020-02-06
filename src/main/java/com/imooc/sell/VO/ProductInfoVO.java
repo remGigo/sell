@@ -7,7 +7,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * 描述： TODO
+ * 描述： 商品详情
  *
  * @create: 2020-01-28 16:50
  */

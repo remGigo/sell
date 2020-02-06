@@ -4,7 +4,7 @@ import lombok.Data;
 import org.hibernate.validator.constraints.NotEmpty;
 
 /**
- * 描述： TODO
+ * 描述： 关于表单验证
  *
  * @create: 2020-01-30 12:24
  */

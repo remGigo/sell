@@ -15,8 +15,6 @@ import com.imooc.sell.repository.OrderMasterRepository;
 import com.imooc.sell.service.OrderService;
 import com.imooc.sell.service.ProductService;
 import com.imooc.sell.utils.KeyUtil;
-import com.sun.org.apache.regexp.internal.RE;
-import com.sun.xml.internal.bind.v2.TODO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,12 +27,11 @@ import org.springframework.util.CollectionUtils;
 
 //import javax.transaction.Transactional;别导错包了
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * 描述： TODO
+ * 描述： 关于订单的各种操作
  *
  * @create: 2020-01-29 11:44
  */

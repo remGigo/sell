@@ -24,7 +24,7 @@ public class ProductCategoryRepositoryTest {
     @Test
     public void saveTest(){
         ProductCategory productCategory = new ProductCategory();
-        productCategory.setCategoryId(2);
+        productCategory.setCategoryId(2);  //添加构造方法就更简洁清晰
         productCategory.setCategoryName("猫猫最爱");
         productCategory.setCategoryType(3);
         repository.save(productCategory);
